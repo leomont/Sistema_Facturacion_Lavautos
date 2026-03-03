@@ -5,3 +5,5 @@ Debe tener instalado Java en versión mínima 17. JDK 17
 Debe contar con un IDE InteliJ Jetbrains
 
 Debe contar con una cuenta y usuario en GitHub, y la herramienta Git instalada en su equipo.
+
+Adicionalmente debes tener instalado Sistema Operativo Windows
