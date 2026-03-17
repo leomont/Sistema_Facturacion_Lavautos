@@ -1,4 +1,4 @@
-// Fig. 2.7: Addition.java
+package org.example.ejemploSumaNumeros;// Fig. 2.7: Addition.java
 // Addition program that displays the sum of two numbers.
 import java.util.Scanner; // program uses class Scanner
 
@@ -8,10 +8,10 @@ public class Addition {
       // create a Scanner to obtain input from the command window
       Scanner input = new Scanner(System.in);
 
-      System.out.print("Enter first integer: "); // prompt 
+      System.out.print("Ingrese primer numero: "); // prompt
       int number1 = input.nextInt(); // read first number from user
 
-      System.out.print("Enter second integer: "); // prompt 
+      System.out.print("Ingrese primer numero: "); // prompt
       int number2 = input.nextInt(); // read second number from user
 
       int sum = number1 + number2; // add numbers, then store total in sum
