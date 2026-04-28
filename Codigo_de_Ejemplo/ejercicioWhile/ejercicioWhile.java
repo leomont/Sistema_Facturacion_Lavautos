@@ -13,7 +13,7 @@ class ejercicioWhile {
         System.out.println("El numero tiene " + numeroDigitos + " digitos");
 
         //3. Utilizar un ciclo para determinar cuando deseamos finalizar el programa
-        while (true) {
+        do {
             System.out.println("Desea Ingresar mas datos el programa? (s/n)");
             String respuesta = leerDatoConsola.next();
             if (respuesta.equalsIgnoreCase("n")) {
@@ -29,7 +29,7 @@ class ejercicioWhile {
             else {
                 System.out.println("Respuesta no valida, por favor ingrese 's' o 'n'");
             }
-        }
+        } while (true);
 
     }
 }

@@ -1,0 +1,5 @@
+cuenta
+ejemploSumaNumeros
+ejercicioIf
+ejercicioSwitch
+ejercicioWhile
